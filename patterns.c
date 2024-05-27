@@ -82,15 +82,15 @@ int main()
         else if (choose == 4)
         {
             int height;
-            int lenght;
+            int length;
             do
             {
                 printf("Enter the number: ");
                 scanf("%i", &height);
                 printf("Enter the another number: ");
-                scanf("%i", &lenght);
+                scanf("%i", &length);
             }
-            while (height < 1 || lenght < 1);
+            while (height < 1 || length < 1);
             for (int i = 0; i < height; i++)
             {
                 for (int j = 0; j < height-(i+1); j++)
@@ -130,7 +130,7 @@ int main()
             printf("&");
             }
             printf("\n");
-            for (int i = 0; i < lenght; i++)
+            for (int i = 0; i < length; i++)
             {
                 for (int j = 0; j < (height*2)+1; j++)
                 {

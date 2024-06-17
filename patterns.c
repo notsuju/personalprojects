@@ -5,7 +5,7 @@ int main()
     int control;
     do
     {
-    // FOR CHOOSING THE PATTERn
+    // FOR CHOOSING THE PATTERN
         int choose;
         printf("Choose one of the following patterns():\n");
         printf("1. Rectangle\n");

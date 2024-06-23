@@ -149,7 +149,8 @@ int main()
 
         }
         printf("Continue or Quit(1/2): ");
-        scanf("%i\n", &control);
+        scanf("%i", &control);
+
 
     }
     while (control == 1);
